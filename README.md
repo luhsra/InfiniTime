@@ -1,3 +1,12 @@
+# InfiniTime for ARA
+
+This is InfiniTime for ARA.
+It is modified to compile with LLVM. All other tooling is found in infinitime-gllvm.
+
+## Changelog
+
+This build is based on InfiniTime 0.15.0.
+Previously, we build InfiniTime 0.9.0. See the ara-old branch for the necessary patches.
 
 # PineTime
 
