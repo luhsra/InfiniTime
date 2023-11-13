@@ -30,11 +30,18 @@ if (NOT NRF_TARGET MATCHES "nrf52")
 endif ()
 
 # Setup toolchain
-include(${CMAKE_SOURCE_DIR}/cmake-nRF5x/arm-gcc-toolchain.cmake)
+if (USE_CLANG)
+	include(${CMAKE_SOURCE_DIR}/arm-clang-toolchain.cmake)
+	set(CUSTOM_FLAGS -fuse-ld=lld)
+else ()
+	include(${CMAKE_SOURCE_DIR}/cmake-nRF5x/arm-gcc-toolchain.cmake)
+	set(CUSTOM_FLAGS )
 
-if (NOT DEFINED ARM_GCC_TOOLCHAIN)
-    message(FATAL_ERROR "The toolchain must be set up before calling this macro")
+	if (NOT DEFINED ARM_GCC_TOOLCHAIN)
+	    message(FATAL_ERROR "The toolchain must be set up before calling this macro")
+	endif ()
 endif ()
+
 set(CMAKE_OSX_SYSROOT "/")
 set(CMAKE_OSX_DEPLOYMENT_TARGET "")
 
@@ -806,7 +813,7 @@ link_directories(
 )
 
 
-set(COMMON_FLAGS -MP -MD -mthumb -mabi=aapcs -Wall -Wno-unknown-pragmas -g3 -ffunction-sections -fdata-sections -fno-strict-aliasing -fno-builtin --short-enums -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -Wreturn-type -Werror=return-type)
+set(COMMON_FLAGS -MP -MD -mthumb -mabi=aapcs -Wall -Wno-unknown-pragmas -g3 -ffunction-sections -fdata-sections -fno-strict-aliasing -fno-builtin -fshort-enums -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -Wreturn-type -Werror=return-type ${CUSTOM_FLAGS})
 add_definitions(-DCONFIG_GPIO_AS_PINRESET)
 add_definitions(-DDEBUG)
 add_definitions(-DNIMBLE_CFG_CONTROLLER)
