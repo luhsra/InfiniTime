@@ -3,6 +3,7 @@
 #include <lvgl/lvgl.h>
 #include <cstdint>
 #include <memory>
+#include <array>
 #include "Screen.h"
 #include "../Apps.h"
 #include "components/settings/Settings.h"
