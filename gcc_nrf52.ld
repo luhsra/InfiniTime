@@ -5,7 +5,8 @@ GROUP(-lgcc -lc -lnosys)
 
 MEMORY
 {
-  FLASH (rx) : ORIGIN = 0x00000, LENGTH = 0x78000
+ /* WARNING: FLASH size is actually 0x78000. However, this does not fit when building with gllvm, investigate. */
+  FLASH (rx) : ORIGIN = 0x00000, LENGTH = 0x100000
   RAM (rwx) :  ORIGIN = 0x20000000, LENGTH = 0x10000
 }
 
