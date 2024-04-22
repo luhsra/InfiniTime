@@ -1,0 +1,7 @@
+[
+	{
+		"source_file": "src/libs/mynewt-nimble/porting/nimble/src/os_mempool.c",
+		"line_number": 311,
+		"call_targets": []
+	}
+]

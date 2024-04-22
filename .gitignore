@@ -36,3 +36,5 @@ Testing/Temporary/
 
 # Windows
 **/thumbs.db
+
+.meson-subproject-wrap-hash.txt
