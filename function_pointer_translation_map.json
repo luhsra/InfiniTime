@@ -3,5 +3,295 @@
 		"source_file": "src/libs/mynewt-nimble/porting/nimble/src/os_mempool.c",
 		"line_number": 311,
 		"call_targets": []
+	},
+	{
+		"source_file": "src/libs/mynewt-nimble/nimble/host/src/ble_gap.c",
+		"line_number": 663,
+		"call_targets": ["_Z16GAPEventCallbackP13ble_gap_eventPv"]
+	},
+	{
+		"source_file": "src/libs/mynewt-nimble/nimble/host/src/ble_hs.c",
+		"line_number": 352,
+		"call_targets": []
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_core/lv_refr.c",
+		"line_number": 130,
+		"call_targets": []
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_draw/lv_draw_mask.c",
+		"line_number": 111,
+		"call_targets": ["lv_draw_mask_angle", "lv_draw_mask_line", "lv_draw_mask_radius", "lv_draw_mask_fade", "lv_draw_mask_map"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_core/lv_obj.c",
+		"line_number": 1964,
+		"call_targets": []
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_core/lv_obj.c",
+		"line_number": 1968,
+		"call_targets": ["_ZL13event_handlerP9_lv_obj_th", "_ZL22stop_lap_event_handlerP9_lv_obj_th", "_ZL24play_pause_event_handlerP9_lv_obj_th", "_ZL18tile_event_handlerP9_lv_obj_th", "_ZN12_GLOBAL__N_130AcceptIncomingCallEventHandlerEP9_lv_obj_th", "_ZN12_GLOBAL__N_130RejectIncomingCallEventHandlerEP9_lv_obj_th", "_ZN12_GLOBAL__N_128MuteIncomingCallEventHandlerEP9_lv_obj_th", "_ZN12_GLOBAL__N_124btnStartStopEventHandlerEP9_lv_obj_th", "_ZN12_GLOBAL__N_118ButtonEventHandlerEP9_lv_obj_th", "_Z15slider_event_cbP9_lv_obj_th"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_core/lv_obj.c",
+		"line_number": 795,
+		"call_targets": ["lv_btn_signal", "lv_linemeter_signal", "lv_img_signal", "lv_cont_signal", "lv_bar_signal", "lv_label_signal", "lv_table_signal", "lv_obj_signal"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_core/lv_obj.c",
+		"line_number": 799,
+		"call_targets": ["lv_btn_signal", "lv_linemeter_signal", "lv_img_signal", "lv_cont_signal", "lv_bar_signal", "lv_label_signal", "lv_table_signal", "lv_obj_signal"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_core/lv_obj.c",
+		"line_number": 802,
+		"call_targets": ["lv_btn_signal", "lv_linemeter_signal", "lv_img_signal", "lv_cont_signal", "lv_bar_signal", "lv_label_signal", "lv_table_signal", "lv_obj_signal"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_core/lv_obj.c",
+		"line_number": 866,
+		"call_targets": ["lv_btn_signal", "lv_linemeter_signal", "lv_img_signal", "lv_cont_signal", "lv_bar_signal", "lv_label_signal", "lv_table_signal", "lv_obj_signal"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_core/lv_obj.c",
+		"line_number": 870,
+		"call_targets": ["lv_btn_signal", "lv_linemeter_signal", "lv_img_signal", "lv_cont_signal", "lv_bar_signal", "lv_label_signal", "lv_table_signal", "lv_obj_signal"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_core/lv_obj.c",
+		"line_number": 875,
+		"call_targets": ["lv_btn_signal", "lv_linemeter_signal", "lv_img_signal", "lv_cont_signal", "lv_bar_signal", "lv_label_signal", "lv_table_signal", "lv_obj_signal"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_core/lv_obj.c",
+		"line_number": 1423,
+		"call_targets": ["lv_btn_signal", "lv_linemeter_signal", "lv_img_signal", "lv_cont_signal", "lv_bar_signal", "lv_label_signal", "lv_table_signal", "lv_obj_signal"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_core/lv_obj.c",
+		"line_number": 1431,
+		"call_targets": ["lv_btn_signal", "lv_linemeter_signal", "lv_img_signal", "lv_cont_signal", "lv_bar_signal", "lv_label_signal", "lv_table_signal", "lv_obj_signal"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_core/lv_obj.c",
+		"line_number": 2025,
+		"call_targets": ["lv_btn_signal", "lv_linemeter_signal", "lv_img_signal", "lv_cont_signal", "lv_bar_signal", "lv_label_signal", "lv_table_signal", "lv_obj_signal"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_core/lv_obj.c",
+		"line_number": 2074,
+		"call_targets": ["lv_btn_signal", "lv_linemeter_signal", "lv_img_signal", "lv_cont_signal", "lv_bar_signal", "lv_label_signal", "lv_table_signal", "lv_obj_signal"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_core/lv_obj.c",
+		"line_number": 3315,
+		"call_targets": ["lv_btn_signal", "lv_linemeter_signal", "lv_img_signal", "lv_cont_signal", "lv_bar_signal", "lv_label_signal", "lv_table_signal", "lv_obj_signal"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_core/lv_obj.c",
+		"line_number": 4098,
+		"call_targets": ["lv_btn_signal", "lv_linemeter_signal", "lv_img_signal", "lv_cont_signal", "lv_bar_signal", "lv_label_signal", "lv_table_signal", "lv_obj_signal"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_widgets/lv_cont.c",
+		"line_number": 262,
+		"call_targets": ["lv_btn_signal", "lv_linemeter_signal", "lv_img_signal", "lv_cont_signal", "lv_bar_signal", "lv_label_signal", "lv_table_signal", "lv_obj_signal"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_widgets/lv_cont.c",
+		"line_number": 268,
+		"call_targets": ["lv_btn_signal", "lv_linemeter_signal", "lv_img_signal", "lv_cont_signal", "lv_bar_signal", "lv_label_signal", "lv_table_signal", "lv_obj_signal"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_widgets/lv_cont.c",
+		"line_number": 795,
+		"call_targets": ["lv_btn_signal", "lv_linemeter_signal", "lv_img_signal", "lv_cont_signal", "lv_bar_signal", "lv_label_signal", "lv_table_signal", "lv_obj_signal"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_widgets/lv_cont.c",
+		"line_number": 798,
+		"call_targets": ["lv_btn_signal", "lv_linemeter_signal", "lv_img_signal", "lv_cont_signal", "lv_bar_signal", "lv_label_signal", "lv_table_signal", "lv_obj_signal"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_widgets/lv_cont.c",
+		"line_number": 806,
+		"call_targets": ["lv_btn_signal", "lv_linemeter_signal", "lv_img_signal", "lv_cont_signal", "lv_bar_signal", "lv_label_signal", "lv_table_signal", "lv_obj_signal"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_widgets/lv_img.c",
+		"line_number": 786,
+		"call_targets": ["lv_btn_signal", "lv_linemeter_signal", "lv_img_signal", "lv_cont_signal", "lv_bar_signal", "lv_label_signal", "lv_table_signal", "lv_obj_signal"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_widgets/lv_img.c",
+		"line_number": 790,
+		"call_targets": ["lv_btn_signal", "lv_linemeter_signal", "lv_img_signal", "lv_cont_signal", "lv_bar_signal", "lv_label_signal", "lv_table_signal", "lv_obj_signal"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_widgets/lv_btnmatrix.c",
+		"line_number": 848,
+		"call_targets": ["lv_btn_signal", "lv_linemeter_signal", "lv_img_signal", "lv_cont_signal", "lv_bar_signal", "lv_label_signal", "lv_table_signal", "lv_obj_signal"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_widgets/lv_btnmatrix.c",
+		"line_number": 852,
+		"call_targets": ["lv_btn_signal", "lv_linemeter_signal", "lv_img_signal", "lv_cont_signal", "lv_bar_signal", "lv_label_signal", "lv_table_signal", "lv_obj_signal"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_widgets/lv_bar.c",
+		"line_number": 675,
+		"call_targets": ["lv_btn_signal", "lv_linemeter_signal", "lv_img_signal", "lv_cont_signal", "lv_bar_signal", "lv_label_signal", "lv_table_signal", "lv_obj_signal"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_widgets/lv_bar.c",
+		"line_number": 679,
+		"call_targets": ["lv_btn_signal", "lv_linemeter_signal", "lv_img_signal", "lv_cont_signal", "lv_bar_signal", "lv_label_signal", "lv_table_signal", "lv_obj_signal"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_widgets/lv_bar.c",
+		"line_number": 374,
+		"call_targets": ["lv_btnmatrix_design", "lv_linemeter_design", "lv_img_design", "lv_line_design", "lv_label_design", "lv_table_design", "lv_obj_design", "lv_bar_design", "lv_btn_design", "lv_slider_design"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_widgets/lv_btn.c",
+		"line_number": 267,
+		"call_targets": ["lv_btn_signal", "lv_linemeter_signal", "lv_img_signal", "lv_cont_signal", "lv_bar_signal", "lv_label_signal", "lv_table_signal", "lv_obj_signal"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_core/lv_group.c",
+		"line_number": 155,
+		"call_targets": ["lv_btn_signal", "lv_linemeter_signal", "lv_img_signal", "lv_cont_signal", "lv_bar_signal", "lv_label_signal", "lv_table_signal", "lv_obj_signal"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_core/lv_group.c",
+		"line_number": 156,
+		"call_targets": ["lv_btn_signal", "lv_linemeter_signal", "lv_img_signal", "lv_cont_signal", "lv_bar_signal", "lv_label_signal", "lv_table_signal", "lv_obj_signal"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_widgets/lv_btn.c",
+		"line_number": 243,
+		"call_targets": ["lv_btnmatrix_design", "lv_linemeter_design", "lv_img_design", "lv_line_design", "lv_label_design", "lv_table_design", "lv_obj_design", "lv_bar_design", "lv_btn_design", "lv_slider_design"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_widgets/lv_btn.c",
+		"line_number": 246,
+		"call_targets": ["lv_btnmatrix_design", "lv_linemeter_design", "lv_img_design", "lv_line_design", "lv_label_design", "lv_table_design", "lv_obj_design", "lv_bar_design", "lv_btn_design", "lv_slider_design"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_widgets/lv_btn.c",
+		"line_number": 247,
+		"call_targets": ["lv_btnmatrix_design", "lv_linemeter_design", "lv_img_design", "lv_line_design", "lv_label_design", "lv_table_design", "lv_obj_design", "lv_bar_design", "lv_btn_design", "lv_slider_design"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_widgets/lv_btn.c",
+		"line_number": 249,
+		"call_targets": ["lv_btnmatrix_design", "lv_linemeter_design", "lv_img_design", "lv_line_design", "lv_label_design", "lv_table_design", "lv_obj_design", "lv_bar_design", "lv_btn_design", "lv_slider_design"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_widgets/lv_btn.c",
+		"line_number": 250,
+		"call_targets": ["lv_btnmatrix_design", "lv_linemeter_design", "lv_img_design", "lv_line_design", "lv_label_design", "lv_table_design", "lv_obj_design", "lv_bar_design", "lv_btn_design", "lv_slider_design"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_widgets/lv_btnmatrix.c",
+		"line_number": 631,
+		"call_targets": ["lv_btnmatrix_design", "lv_linemeter_design", "lv_img_design", "lv_line_design", "lv_label_design", "lv_table_design", "lv_obj_design", "lv_bar_design", "lv_btn_design", "lv_slider_design"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_widgets/lv_btnmatrix.c",
+		"line_number": 635,
+		"call_targets": ["lv_btnmatrix_design", "lv_linemeter_design", "lv_img_design", "lv_line_design", "lv_label_design", "lv_table_design", "lv_obj_design", "lv_bar_design", "lv_btn_design", "lv_slider_design"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_widgets/lv_btnmatrix.c",
+		"line_number": 790,
+		"call_targets": ["lv_btnmatrix_design", "lv_linemeter_design", "lv_img_design", "lv_line_design", "lv_label_design", "lv_table_design", "lv_obj_design", "lv_bar_design", "lv_btn_design", "lv_slider_design"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_widgets/lv_btnmatrix.c",
+		"line_number": 829,
+		"call_targets": ["lv_btnmatrix_design", "lv_linemeter_design", "lv_img_design", "lv_line_design", "lv_label_design", "lv_table_design", "lv_obj_design", "lv_bar_design", "lv_btn_design", "lv_slider_design"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_widgets/lv_btnmatrix.c",
+		"line_number": 830,
+		"call_targets": ["lv_btnmatrix_design", "lv_linemeter_design", "lv_img_design", "lv_line_design", "lv_label_design", "lv_table_design", "lv_obj_design", "lv_bar_design", "lv_btn_design", "lv_slider_design"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_misc/lv_async.c",
+		"line_number": 75,
+		"call_targets": ["lv_obj_del_async_cb"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_draw/lv_draw_blend.c",
+		"line_number": 143,
+		"call_targets": []
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_draw/lv_draw_blend.c",
+		"line_number": 218,
+		"call_targets": []
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_core/lv_group.c",
+		"line_number": 235,
+		"call_targets": []
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_core/lv_group.c",
+		"line_number": 512,
+		"call_targets": []
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_core/lv_refr.c",
+		"line_number": 708,
+		"call_targets": []
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_core/lv_refr.c",
+		"line_number": 1103,
+		"call_targets": []
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_core/lv_refr.c",
+		"line_number": 1126,
+		"call_targets": []
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_core/lv_refr.c",
+		"line_number": 1137,
+		"call_targets": []
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_draw/lv_img_decoder.c",
+		"line_number": 176,
+		"call_targets": ["lv_img_decoder_built_in_read_line"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_draw/lv_img_decoder.c",
+		"line_number": 188,
+		"call_targets": ["lv_img_decoder_built_in_close"]
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_draw/lv_img_decoder.c",
+		"line_number": 92,
+		"call_targets": []
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_draw/lv_img_decoder.c",
+		"line_number": 108,
+		"call_targets": []
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_draw/lv_img_decoder.c",
+		"line_number": 144,
+		"call_targets": []
+	},
+	{
+		"source_file": "src/libs/lvgl/src/lv_draw/lv_img_decoder.c",
+		"line_number": 188,
+		"call_targets": []
 	}
 ]
