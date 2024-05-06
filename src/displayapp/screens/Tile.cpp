@@ -3,7 +3,7 @@
 
 using namespace Pinetime::Applications::Screens;
 
-static void event_handler(lv_obj_t * obj, lv_event_t event) {
+static void tile_event_handler(lv_obj_t * obj, lv_event_t event) {
   Tile* screen = static_cast<Tile *>(obj->user_data);
   uint32_t* eventDataPtr = (uint32_t*) lv_event_get_data();
   uint32_t eventData = *eventDataPtr;
@@ -29,7 +29,7 @@ Tile::Tile(uint8_t screenID, DisplayApp* app, Controllers::Settings& settingsCon
   lv_obj_set_size(btnm1, LV_HOR_RES, LV_VER_RES);
 
   btnm1->user_data = this;
-  lv_obj_set_event_cb(btnm1, event_handler);
+  lv_obj_set_event_cb(btnm1, tile_event_handler);
 }
 
 Tile::~Tile() {
